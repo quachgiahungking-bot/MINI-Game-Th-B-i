@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Thử Thách Thẻ Bài Ngọc Nephrite - Super VIP</title>
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Thử Thách Thẻ Bài Ngọc Nephrite - Bản Giới Hạn Super VIP" />
+    <meta property="og:description" content="Chơi ngay mini-game phong cách TikTok. Bấm dừng đúng lúc để nhận thẻ bài ngọc hoàng gia!" />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1599387737222-79e1eb1cbeb3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="Thử Thách Thẻ Bài Ngọc Nephrite - Bản Giới Hạn Super VIP" />
+    <meta property="twitter:description" content="Chơi ngay mini-game phong cách TikTok. Bấm dừng đúng lúc để nhận thẻ bài ngọc hoàng gia!" />
+    <meta property="twitter:image" content="https://images.unsplash.com/photo-1599387737222-79e1eb1cbeb3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <script>
+      // Prevent "Cannot set property fetch of #<Window> which has only a getter" from extensions/polyfills
+      if (typeof window !== 'undefined') {
+        const originalFetch = window.fetch;
+        try {
+          Object.defineProperty(window, 'fetch', {
+            get: function() { return originalFetch; },
+            set: function(val) { /* ignore or handle */ },
+            configurable: true
+          });
+        } catch (e) {}
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

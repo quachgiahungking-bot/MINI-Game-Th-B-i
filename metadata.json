@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Thử Thách Đá Quý",
+  "description": "Một mini-game phong cách TikTok/Reels thử thách căn thời gian dừng đúng lúc để nhận thưởng SuperVip.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
